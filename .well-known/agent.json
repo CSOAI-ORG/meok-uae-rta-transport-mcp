@@ -1,0 +1,86 @@
+{
+  "name": "meok-uae-rta-transport-mcp",
+  "description": "UAE Federal Transport + Emirate RTA compliance \u2014 Federal Decree-Law 38/2022 driver hours, mid-day",
+  "url": "https://proofof.ai/scorecard/meok-uae-rta-transport-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_uae_federal_drivers_hours",
+      "name": "Check Uae Federal Drivers Hours",
+      "description": "check_uae_federal_drivers_hours via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_emirate_specific_rules",
+      "name": "Check Emirate Specific Rules",
+      "description": "check_emirate_specific_rules via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_uae_vehicle_inspection",
+      "name": "Check Uae Vehicle Inspection",
+      "description": "check_uae_vehicle_inspection via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_adr_gcc_dangerous_goods",
+      "name": "Check Adr Gcc Dangerous Goods",
+      "description": "check_adr_gcc_dangerous_goods via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_emiratisation_quota",
+      "name": "Check Emiratisation Quota",
+      "description": "check_emiratisation_quota via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_rta_audit_pack",
+      "name": "Prepare Rta Audit Pack",
+      "description": "prepare_rta_audit_pack via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_gcc_cross_border",
+      "name": "Check Gcc Cross Border",
+      "description": "check_gcc_cross_border via meok-uae-rta-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

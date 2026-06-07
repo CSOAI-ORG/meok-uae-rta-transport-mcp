@@ -1,0 +1,23 @@
+# meok-uae-rta-transport-mcp
+
+> UAE Federal Transport + Emirate RTA compliance — Federal Decree-Law 38/2022 driver hours, mid-day heat ban, Tasjeel/Shamil inspection, GSO dangerous goods, Tawteen Emiratisation, RTA audit prep, GCC cross-border transit. MENA logistics callable toolkit. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_uae_federal_drivers_hours
+- check_emirate_specific_rules
+- check_uae_vehicle_inspection
+- check_adr_gcc_dangerous_goods
+- check_emiratisation_quota
+- prepare_rta_audit_pack
+- check_gcc_cross_border
+
+## Install
+```
+pip install meok-uae-rta-transport-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-uae-rta-transport-mcp/
+- Docs: https://meok.ai

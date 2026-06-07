@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-uae-rta-transport-mcp",
+  "description": "UAE Federal Transport + Emirate RTA compliance \u2014 Federal Decree-Law 38/2022 driver hours, mid-day",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-uae-rta-transport-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "identifier": "meok-uae-rta-transport-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-uae-rta-transport-mcp",
+    "description": "UAE Federal Transport + Emirate RTA compliance \u2014 Federal Decree-Law 38/2022 driver hours, mid-day",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-uae-rta-transport-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_uae_federal_drivers_hours",
+      "check_emirate_specific_rules",
+      "check_uae_vehicle_inspection",
+      "check_adr_gcc_dangerous_goods",
+      "check_emiratisation_quota",
+      "prepare_rta_audit_pack",
+      "check_gcc_cross_border"
+    ]
+  }
+}

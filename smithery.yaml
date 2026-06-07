@@ -1,0 +1,32 @@
+name: meok-uae-rta-transport-mcp
+description: 'UAE Federal Transport + Emirate RTA compliance — Federal Decree-Law 38/2022 driver hours, mid-day'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-uae-rta-transport-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_uae_federal_drivers_hours
+  description: check uae federal drivers hours
+- name: check_emirate_specific_rules
+  description: check emirate specific rules
+- name: check_uae_vehicle_inspection
+  description: check uae vehicle inspection
+- name: check_adr_gcc_dangerous_goods
+  description: check adr gcc dangerous goods
+- name: check_emiratisation_quota
+  description: check emiratisation quota
+- name: prepare_rta_audit_pack
+  description: prepare rta audit pack
+- name: check_gcc_cross_border
+  description: check gcc cross border
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
