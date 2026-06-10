@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-uae-rta-transport-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-uae-rta-transport-mcp"
+      ]
+    }
+  }
+}
