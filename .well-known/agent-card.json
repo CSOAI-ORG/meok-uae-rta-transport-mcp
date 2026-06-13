@@ -1,0 +1,151 @@
+{
+  "name": "Meok Uae Rta Transport Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-uae-rta-transport-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UAE Federal Transport + Emirate RTA compliance — Federal Decree-Law 38/2022 driver hours, mid-day heat ban, Tasjeel/Shamil inspection, GSO dangerous goods, Tawteen Emiratisation, RTA audit prep, GCC cross-border transit. MENA logistics callable toolkit. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_uae_federal_drivers_hours",
+      "name": "Check Uae Federal Drivers Hours",
+      "description": "Check Uae Federal Drivers Hours — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_emirate_specific_rules",
+      "name": "Check Emirate Specific Rules",
+      "description": "Check Emirate Specific Rules — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_uae_vehicle_inspection",
+      "name": "Check Uae Vehicle Inspection",
+      "description": "Check Uae Vehicle Inspection — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_adr_gcc_dangerous_goods",
+      "name": "Check Adr Gcc Dangerous Goods",
+      "description": "Check Adr Gcc Dangerous Goods — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_emiratisation_quota",
+      "name": "Check Emiratisation Quota",
+      "description": "Check Emiratisation Quota — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_rta_audit_pack",
+      "name": "Prepare Rta Audit Pack",
+      "description": "Prepare Rta Audit Pack — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_gcc_cross_border",
+      "name": "Check Gcc Cross Border",
+      "description": "Check Gcc Cross Border — a tool of the meok-uae-rta-transport-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-uae-rta-transport-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
